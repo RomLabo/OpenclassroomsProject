@@ -3,3 +3,15 @@ body
     background-color: black;
     color:ghostwhite;
 }
+h1
+{
+    background-color: gray;
+    color: darkred;
+    border: 1em gray solid;
+    border-radius: 0.5em;
+    font-style: italic;
+    font-size: 5em;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    box-shadow: 0.1em 0.1em 0.1em darkslategray;
+    text-align-last: center;
+}
