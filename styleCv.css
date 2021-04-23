@@ -1,18 +1,62 @@
 body
 {
-    background-color: black;
-    color:ghostwhite;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #21cbef;
+    color: darkslateblue;
+    font-family: 'comic sans MS', Geneva, Tahoma, sans-serif;
+}
+#page
+{
+    width: 95%;
+    margin: auto;
+}
+#titrePrincipal
+{
+    background-color: gray;
+    border: 0.1em gray solid;
+    border-radius: 0.5em;
+    box-shadow: 0.1em 0.1em 0.1em darkslategray;
+    display: flex;
+    align-items: center;
+    
+}
+header p
+{
+    text-align: center;
 }
 h1
 {
-    background-color: gray;
-    color: darkred;
-    border: 1em gray solid;
-    border-radius: 0.5em;
-    font-style: italic;
-    font-size: 5em;
-    text-shadow: 0.1em 0.1em 0.1em black;
-    box-shadow: 0.1em 0.1em 0.1em darkslategray;
-    text-align-last: center;
+    justify-content: center;
+}
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2%;
+}
+
+
+#blocPage
+{
+    width: 85%;
+}
+#blocPage, #liseret
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#liseret
+{   
+    width: 10%;
+    margin-right: 3%;
+    height: 600px;
+    background-image: url('homSimLis.png');
+    border-radius: 10px;
+}
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
