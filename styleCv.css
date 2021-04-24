@@ -1,8 +1,6 @@
 body
 {
     background-color: #21cbef;
-    color: darkblue;
-    font-family: 'Calligraffitti', cursive, 'Arial Black', Arial, Impact;
 }
 #page
 {
@@ -20,16 +18,33 @@ body
     align-items: center;
     justify-content: space-around;
 }
+
+header img
+{
+    border: 0.2em black solid;
+    border-radius: 0.5em;
+}
+
 header p
 {
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
 }
 h1
 {
     width: 80%;
     font-size: 5em;
-    color: darkslateblue;
-    font-family: 'comic sans MS', Geneva, Tahoma, sans-serif;
+    color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0.2em 0.3em 0.1em black;
+}
+
+h2
+{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
 }
 section
 {
@@ -37,8 +52,10 @@ section
     vertical-align: top;
     width: 30%;
     margin-right: 2%;
+    color: black;
+    font-family:  'Homemade Apple', cursive, 'comic sans MS', Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
-
 
 #blocPage
 {
@@ -58,6 +75,7 @@ section
     background-image: url('homSimLis.png');
     border-radius: 10px;
 }
+
 footer
 {
     display: flex;
