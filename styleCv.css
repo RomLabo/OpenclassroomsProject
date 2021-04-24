@@ -1,6 +1,9 @@
 body
 {
     background-color: #21cbef;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
 #page
@@ -27,19 +30,12 @@ header img
     border-radius: 0.5em;
 }
 
-header p
-{
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
-}
-
 h1
 {
     width: 80%;
     font-size: 5em;
     color: darkred;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Bangers', cursive, Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 0.2em 0.3em 0.1em black;
 }
 
@@ -59,8 +55,6 @@ section
     vertical-align: top;
     width: 30%;
     margin-right: 2%;
-    color: black;
-    font-family:  'Homemade Apple', cursive, 'comic sans MS', Arial, Helvetica, sans-serif;
     text-align: justify;
 }
 
