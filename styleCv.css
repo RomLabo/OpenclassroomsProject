@@ -2,18 +2,20 @@ body
 {
     background-color: #21cbef;
 }
+
 #page
 {
     width: 95%;
     margin: auto;
 }
+
 #titrePrincipal
 {
     background: url(homSimBack.jpg) no-repeat;
     background-size: 100% 150%;
-    border: 0.1em gray solid;
+    border: 0.2em gray solid;
     border-radius: 0.5em;
-    box-shadow: 0.1em 0.1em 0.1em darkslategray;
+    box-shadow: 0.2em 0.3em 0.3em darkslategray;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -31,6 +33,7 @@ header p
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
 }
+
 h1
 {
     width: 80%;
@@ -42,10 +45,14 @@ h1
 
 h2
 {
+    border: 0.1em black solid;
+    background-color: blanchedalmond;
+    border-radius: 0.5em;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
 }
+
 section
 {
     display: inline-block;
@@ -61,6 +68,7 @@ section
 {
     width: 85%;
 }
+
 #blocPage, #liseret
 {
     display: inline-block;
