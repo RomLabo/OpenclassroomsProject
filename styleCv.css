@@ -6,12 +6,6 @@ body
     text-align: center;
 }
 
-#page
-{
-    width: 85%;
-    margin: 20px;
-}
-
 #titrePrincipal
 {
     background: url(homSimBack.jpg) no-repeat;
@@ -74,16 +68,17 @@ section
 {   
     width: 10%;
     margin-right: 3%;
-    height: 580px;
+    height: 600px;
     background-image: url('homSimLis.png');
     border-radius: 10px;
     opacity: 70%;
 }
 
-.footPage
+footer
 {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row-reverse;
+
 }
 
 .facebook
@@ -91,7 +86,6 @@ section
     width : 100px;
     height : 100px;
     display: flex;
-    flex-direction: row;
     background : url("facebook.png") no-repeat;
 }
 
@@ -105,7 +99,6 @@ section
     width : 100px;
     height : 100px;
     display: flex;
-    flex-direction: row; 
     background : url("twitter.png") no-repeat;
 }
 
@@ -119,7 +112,6 @@ section
     width : 100px;
     height : 100px;
     display: flex;
-    flex-direction: row; 
     background : url("vimeo.png") no-repeat;
 }
 
