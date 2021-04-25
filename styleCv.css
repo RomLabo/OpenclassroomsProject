@@ -114,3 +114,17 @@ section
     background-image : url("twitterEat.png");
 }
 
+.vimeo
+{
+    width : 100px;
+    height : 100px;
+    display: flex;
+    flex-direction: row; 
+    background : url("vimeo.png") no-repeat;
+}
+
+.vimeo:hover
+{
+    background-image : url("vimeoEat.png");
+}
+
