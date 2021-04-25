@@ -2,14 +2,14 @@ body
 {
     background-color: #21cbef;
     color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Beth Ellen', cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
 #page
 {
-    width: 95%;
-    margin: auto;
+    width: 85%;
+    margin: 20px;
 }
 
 #titrePrincipal
@@ -22,13 +22,13 @@ body
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 140px;
 }
 
 header img
 {
-    border-radius: 50%;
-    opacity: 75%;
-}
+    border-radius: 0.5em;
+}   
 
 h1
 {
@@ -54,6 +54,7 @@ section
     display: inline-block;
     vertical-align: top;
     width: 30%;
+    height: 150px;
     margin-right: 2%;
     text-align: justify;
 }
@@ -73,14 +74,43 @@ section
 {   
     width: 10%;
     margin-right: 3%;
-    height: 600px;
-    background-image: url('homSimLis.gif');
+    height: 580px;
+    background-image: url('homSimLis.png');
     border-radius: 10px;
+    opacity: 70%;
 }
 
-footer
+.footPage
 {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
 }
+
+.facebook
+{
+    width : 100px;
+    height : 100px;
+    display: flex;
+    flex-direction: row;
+    background : url("facebook.png") no-repeat;
+}
+
+.facebook:hover
+{
+    background-image : url("facebookEat.png");
+}
+
+.twitter
+{
+    width : 100px;
+    height : 100px;
+    display: flex;
+    flex-direction: row;
+    background : url("twitter.png") no-repeat;
+}
+
+.twitter:hover
+{
+    background-image : url("twitterEat.png");
+}
+
