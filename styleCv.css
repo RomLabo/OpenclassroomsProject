@@ -1,10 +1,132 @@
-@media all and (max-width: 1024px)
+body
 {
-   #blocPage
-   {
-       width: auto;
-   }
+    background-color: #21cbef;
+    font-family: 'Beth Ellen', cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
 
+header
+{
+    
+    background: url(homSimBack.jpg) no-repeat;
+    background-size: 100% 170%;
+    border: 0.2em darkred solid;
+    border-radius: 0.5em;
+    box-shadow: 0.2em 0.3em 0.3em darkslategray;
+    height: 9em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+h1
+{
+    color: darkred;
+    font-family: 'Bangers', cursive, Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0.2em 0.3em 0.1em black;
+    font-size: 5em;
+}
+
+h2
+{
+    border: 0.1em black solid;
+    background-color: blanchedalmond;
+    border-radius: 0.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-align: center;
+}
+
+img
+{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 0.5em;
+}
+
+#conteneur
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 20em;
+}
+
+#liseret, #blocPage
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#liseret
+{   
+    width: 10%;
+    margin-right: auto;
+    height: 650px;
+    background-image: url('homSimLis.png');
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+#blocPage
+{
+    width: 85%;
+}    
+
+footer
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.facebook
+{
+    width : 100px;
+    height : 100px;
+    display: flex;
+    flex-direction: row;
+    background : url("facebook.png") no-repeat;
+}
+
+.facebook:hover
+{
+    background-image : url("facebookEat.png");
+}
+
+.twitter
+{
+    width : 100px;
+    height : 100px;
+    display: flex;
+    background : url("twitter.png") no-repeat;
+}
+
+.twitter:hover
+{
+    background-image : url("twitterEat.png");
+}
+
+.vimeo
+{
+    width : 100px;
+    height : 100px;
+    display: flex;
+    flex-direction: row;
+    background : url("vimeo.png") no-repeat;
+}
+
+.vimeo:hover
+{
+    background-image : url("vimeoEat.png");
 }
 
 
@@ -18,12 +140,7 @@
 
 
 
-
-
-
-
-
-
+/*
 body
 {
     background-color: #21cbef;
@@ -153,3 +270,4 @@ footer
     background-image : url("vimeoEat.png");
 }
 
+*/
