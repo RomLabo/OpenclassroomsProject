@@ -1,9 +1,36 @@
+@media all and (max-width: 1024px)
+{
+   #blocPage
+   {
+       width: auto;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body
 {
     background-color: #21cbef;
     color: black;
     font-family: 'Beth Ellen', cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    display: flex;
 }
 
 #titrePrincipal
@@ -56,6 +83,7 @@ section
 #blocPage
 {
     width: 85%;
+    margin: auto;
 }
 
 #blocPage, #liseret
@@ -66,8 +94,8 @@ section
 
 #liseret
 {   
-    width: 10%;
-    margin-right: 3%;
+    width: 100px;
+    margin-right: 10px;
     height: 600px;
     background-image: url('homSimLis.png');
     border-radius: 10px;
