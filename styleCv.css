@@ -14,7 +14,7 @@ header
     border: 0.2em darkred solid;
     border-radius: 0.5em;
     box-shadow: 0.2em 0.3em 0.3em darkslategray;
-    height: 9em;
+    height: 8.5em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -58,7 +58,7 @@ section
     display: inline-block;
     vertical-align: top;
     width: 30%;
-    height: 20em;
+    height: 18em;
 }
 
 #liseret, #blocPage
@@ -70,11 +70,11 @@ section
 #liseret
 {   
     width: 10%;
-    margin-right: auto;
-    height: 650px;
+    margin-right: 0.6em;
+    height: 39em;
     background-image: url('homSimLis.png');
     border-radius: 10px;
-    opacity: 70%;
+    opacity: 55%;
 }
 
 #blocPage
@@ -130,144 +130,52 @@ footer
 }
 
 
-
-
-
-
-
-
-
-
-
-
-/*
-body
+@media screen and (max-width: 1024px)
 {
-    background-color: #21cbef;
-}
+    #blocPage
+    {
+        width: auto;
+    }
 
-header
-{
-    height: 9em;
-    background: url(homSimBack.jpg) no-repeat;
-    background-size: 100% 170%;
-    border: 0.2em darkred solid;
-    border-radius: 0.5em;
-    box-shadow: 0.2em 0.3em 0.3em darkslategray;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+    #liseret
+    {
+        display: none;
+    }
 
-img
-{
-    border-radius: 0.5em;
-    float: right;
-}   
+    #conteneur
+    {
+        flex-direction: column;
+    }
 
-h1
-{
-    font-size: 5em;
-    color: darkred;
-    font-family: 'Bangers', cursive, Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 0.2em 0.3em 0.1em black;
-} 
+    section 
+    {
+        width: auto;
+        height: auto;
+        text-align: justify;
+    }
+    
+    h1 
+    {
+        font-size: 4em;
+    }
 
-.para, section
-{
-    text-align: center;
-    font-family: 'Beth Ellen', cursive, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+    img 
+    {
+        margin: 0.4em;
+    }
 
-h2
-{
-    border: 0.1em black solid;
-    background-color: blanchedalmond;
-    border-radius: 0.5em;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: underline;
-}
-
-section
-{
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
-    margin-right: 2%;
+    footer 
+    {
+        justify-content: center;
+    }
 }
 
 
 
-#blocPage
-{
-    width: 85%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-}
 
-#blocPage, #liseret
-{
-    display: inline-block;
-    vertical-align: top;
-}
 
-#liseret
-{   
-    width: 100px;
-    margin-right: 10px;
-    height: 600px;
-    background-image: url('homSimLis.png');
-    border-radius: 10px;
-    opacity: 70%;
-}
 
-footer
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
 
-}
 
-.facebook
-{
-    width : 100px;
-    height : 100px;
-    display: flex;
-    background : url("facebook.png") no-repeat;
-}
 
-.facebook:hover
-{
-    background-image : url("facebookEat.png");
-}
 
-.twitter
-{
-    width : 100px;
-    height : 100px;
-    display: flex;
-    background : url("twitter.png") no-repeat;
-}
-
-.twitter:hover
-{
-    background-image : url("twitterEat.png");
-}
-
-.vimeo
-{
-    width : 100px;
-    height : 100px;
-    display: flex;
-    background : url("vimeo.png") no-repeat;
-}
-
-.vimeo:hover
-{
-    background-image : url("vimeoEat.png");
-}
-
-*/
